@@ -1,0 +1,137 @@
+/* Grouping */
+
+.gray-box {
+    background-color: #2b2b2b;
+    width: 1000px;
+    height: 2000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-bar {
+    background-image: url('purple gameboy.png');
+    display: block;
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(retro\ background.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    width: 500px;
+    height: 2000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* text */
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    padding: 30px;
+    margin: 0 auto;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #521786;
+    font-weight: 700;
+    text-align: center;
+}
+
+ul {
+    color: white;
+    text-align: center;
+}
+
+
+p {
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* navigation */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffc124;
+    display: flex;
+    justify-content: center;
+}
+  
+.navbar li{
+    float: left;
+}
+  
+li a, .dropbtn {
+    display: inline-block;
+    color: #521786;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffcf57;
+}
+  
+li.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffcf57;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    color: rgb(241, 110, 132);
+}
+  
+.dropdown-content a {
+    color: #521786;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: #ffcf57;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
